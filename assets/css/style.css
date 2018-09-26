@@ -5,6 +5,27 @@
 
 }
 
+.link_box {
+    font-size: 10px;
+    color: #dddddd;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
 header {
     background-color: #ffffff;
     border-color: #cccccc;
@@ -18,7 +39,8 @@ footer {
     border-top: #4aaaa5;
     border-width: 5px;
     text-align: center;
-    font-size: 5px;`
+    font-size: 5px;
+    width: 100%;
 }
 
 body {
