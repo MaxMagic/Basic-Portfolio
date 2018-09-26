@@ -1,0 +1,28 @@
+.name_box {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+
+}
+
+footer {
+    background-color: #666666;
+}
+
+body {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.first_page {
+    width: 960px;
+}
+
+hr {
+    color: #dddddd;
+}
