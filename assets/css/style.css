@@ -1,6 +1,7 @@
 .name_box {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
 
 }
 
@@ -12,6 +13,12 @@ header {
 
 footer {
     background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    border-top: #4aaaa5;
+    border-width: 5px;
+    text-align: center;
+    font-size: 5px;`
 }
 
 body {
@@ -25,4 +32,8 @@ body {
 
 hr {
     color: #dddddd;
+}
+
+h1 {
+    color: #4aaaa5;
 }
