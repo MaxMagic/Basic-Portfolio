@@ -9,7 +9,7 @@
     padding-left: 20px;
     font-size: 110%;
     text-align: left; 
-    margin-left: 60px;
+    margin-left: 16.6%;
     
 }
 
@@ -112,13 +112,14 @@ h1 {
 
 section {
     background-color: #ffffff;
-    height: 500px;
+    height: 550px;
     width: 960px;
     position: relative;
     top: 150px;
     border: solid;
     border-width: 2px;
     border-color: #cccccc;
+    overflow: auto;
 }
 
 .inner_block {
@@ -126,7 +127,7 @@ section {
     margin-right: 20px;
 }
 
-img {
+.first_img {
     float: left;
     margin-right: 15px;
 }
@@ -179,4 +180,47 @@ button {
     height: 30px;
     border: 1px solid #4aaaa5;
     font-size: 14px;
+}
+
+.folio_box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.folio {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.banners {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    position: relative;
+    top: -60px;
+    text-align: center;
+    height: 30px;
+    padding-top: 15px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.new_grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "pj pj"
+        "pj pj"
+        "pj"
+}
+.div_adjust {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-right: 20px;
 }
