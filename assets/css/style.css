@@ -40,7 +40,7 @@ a:link {
 }
 
 a:visited {
-    color: green;
+    color: #cccccc;
 }
 
 a:hover {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 a:active {
-    color: blue;
+    color: #cccccc;
 }
 
 header {
