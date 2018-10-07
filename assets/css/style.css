@@ -233,3 +233,29 @@ button {
     margin-bottom: 5px;
     margin-right: 20px;
 }
+
+@media screen and (max-width: 960px) {
+   
+    section {
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  @media screen and (max-width: 768px) {
+   
+    section {
+      width: 600px;
+      height: 50%;
+      overflow: auto;
+    }
+  }
+  @media screen and (max-width: 640px) {
+ 
+    section {
+      width: 460px;
+    }
+    img {
+        width: 100%
+    }
+  }
+      
